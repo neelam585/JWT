@@ -1,0 +1,441 @@
+REACT
+React router dom ?
+React.memo() is higher order component
+React JS: Development Challenges and Their Solutions?
+
+
+
+========================================================================================
+
+synchronous and asynchronous 
+RestTemplate , advantage of RestTemplate , disadvantage
+DTO pattern
+use of service registry?
+service registry enable the dynamic service discovery
+zipkin , problem that solve zipkin
+
+
+----------------------------------------------------------------------------
+dynamic service discovery?
+it enable the microservices to communicate with each other.
+benefit: 
+spring cloud config server
+gateway
+create jar file
+
+what is thread , process, way to create thread
+how to resolve conflict in GitHub
+Hibernate, ORM, JPA
+concruntModification exception, concurrent HashMap, CopyOnWriteArrayList class ?
+fail fast and fail safe?
+how to communicate between 2 microservices?
+===============================================================================
+-Marker interface ?
+-Write code for asynchronous communication between 2 microservices?
+-What actuator
+-What is DAO ? 
+
+-What are the major chalanges in microservices.
+
+-write custom functional interface for addition of two number?
+-What are the major challenge in microservices?
+-Profile ?
+-why functional interface use only one abstract method in java
+
+
+-Give a brief introduction about yourself and your project.
+-What is an Interface in Java?
+-Difference between abstract class and interface.
+-What is an exception in Java and how can we handle it? What is a Checked Exception?
+-How to create an Immutable class in Java?
+-What is a Functional Interface in Java 8?
+-What is a method reference in Java 8?
+-How is memory allocation done in Java 8?   ++
+-Define the Optional class in Java 8.
+-Difference between StringBuffer and StringBuilder. Which one is efficient?
+-Internal working of HashMap in Java.
+-What are Lambda Expressions in Java?
+-Default methods in Java 8. Can we override static methods?
+-What are streams in Java?
+-Write a program to find the second highest salary from an ArrayList using Java 8 Streams. How many streams are created in the existing program?
+-What is Mockito in JUnit?
+-What is the @SpringBootApplication annotation used for?
+-What is the @Transactional annotation in Spring Boot?         https://www.youtube.com/watch?v=SHt6fksvkfk
+-Difference between RestController and Controller.
+-What is the difference between POST and PUT methods?
+-Explain the whole architecture of how REST API works.
+-How can we achieve Spring Security?
+-What is a JWT Token?
+-What are microservices?
+-What is an API Gateway?
+-What is the circuit breaker design pattern in microservices?
+-What is the SAGA design pattern in microservices?
+-What is Docker and how does a Docker image work?
+-What is a CI/CD Pipeline?
+-Find the second highest salary of an employee using optimized SQL queries.
+
+
+
+===================================================================================================
+Git 
+ git status
+fatal: this operation must be run in a work tree
+
+git config --unset core.bare
+----------------------------------------------------
+=========================================================================================================
+
+grouping by author
+
+===========================================================
+
+stream api
+collection framework
+Core Java
+UNIT testing
+  @SpringBootTest
+  @Mock
+  @InjectMocks
+difference b/w RestTemplate and feigh client
+
+
+============================================================================================= 
+
+ @BeforeEach
+  @Test
+  @ParameterizedTest
+  @ValueSource(ints = {1, 2, 3, 4, 5})
+
+
+kafka 
+AWS
+Microservices architecture
+SOLID principle
+Design Pattern
+  singleton
+  factory
+  abstract
+https://www.udemy.com/course/git-and-github-bootcamp/learn/lecture/24524706#overview
+https://git-scm.com/docs/git-init
+https://git-scm.com/docs
+https://plum-poppy-0ea.notion.site/Branching-Exercise-b5460c881d56400cb046357d9a430bf8
+https://plum-poppy-0ea.notion.site/Git-Merging-Exercise-0236a17f04c847159a38f5efa978ce2c
+https://plum-poppy-0ea.notion.site/Git-Diff-Exercise-f7829bd2783940cea14239022a6c37a9
+https://plum-poppy-0ea.notion.site/Stashing-Exercise-b6b4ac460c0a4798845de177fc1eb86d
+https://git-scm.com/docs/git-revert
+https://github.com/sudheerj/reactjs-interview-questions?tab=readme-ov-file#what-is-react
+https://www.youtube.com/watch?v=IMEzmmP3WAs
+https://github.com/LearnCodeWithDurgesh/micro_yt
+https://github.com/eazybytes/microservices
+https://github.com/EmbarkXOfficial/ecom-microservices/tree/main
+
+
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+
+https://www.udemy.com/course/java-spring-boot-microservices-with-spring-cloud-k8s-docker/learn/lecture/44773467#overview
+implement kafka: https://github.com/eazybytes/microservices/blob/3.4.1/section_14/accounts/
+
+Docker: https://rameshfadatare.medium.com/how-to-create-and-deploy-spring-boot-microservices-using-docker-fa1757d0805a#:~:text=In%20a%20microservices%20architecture%2C%20an,package%20these%20microservices%20into%20containers.
+==================================================================================================
+
+Interview Scheduled with Capgemini L1 --45734.9001388889
+
+GCP
+
+Saga Pattern
+sircket braker
+falt tolrant
+
+falt fast
+falt safe
+https://github.com/EmbarkXOfficial/spring-boot-course
+
+
+crud repository
+
+why string are immutable
+internal flow of hasmap
+architecture of your project
+can you write the procedure and function based on mysql
+
+what collection you should used large volume of data
+1) List<String> = new ArrayList<>();
+2) List<String> = new ArrayList<>(10);
+-----------------------------------------------------------------------
+static block
+iterate and innumeration
+string buffer and string builder
+constructor can be static
+concurrent exception
+
+=================================================================================================================
+HashMap : it is used to implement the hashTable
+HashTable: 
+hasfunction: transform the keys into array index. it define the relationship between keys and index.
+index calculation: if key is integer use % like 26 % 5(size of array) index should be in range (0 to m-1)
+                   if key is charator convert it into ascii value the %
+Collision: if hasfunction give the same index for two keys this is the collision
+ there are two method to resolve the collision problem
+ 1) CHANING : store both keys in same index, same bucket but in linklist datastructure
+
+ 2) OPEN ADDRESSING : i have to generate new index in the other bucket
+
+ Load factor:
+ If more number of element in the hashtable then higher posibility of collision. that is why i have to define new parameter to hashtable which is called load factor.
+Maximum load factor is 75 % of the bucket. 
+when the load factor is > .75 then java resize the hashtable automitacily to avoid the too many collision.
+
+==========================================================================================================================
+SQL
+
+-Find Department that have highest employee from employee_table
+
+select department count(empId) as empcount
+group by department
+order by empcount desc
+limit 1;
+
+
+-------------------------------------------------------------
+-Find highest salary from employee 
+
+select salary from employee
+order by salary desc
+limit 1;
+
+-----------------------------------
+ List<Employee> employees = Arrays.asList(
+                new Employee("Alice", 50000),
+                new Employee("Bob", 75000),
+                new Employee("Charlie", 120000),
+                new Employee("David", 95000)
+        );
+
+        // Find the employee with the highest salary
+
+Employee maxSalary = employees.stream().max((a,b)->Double.compare(a.getSalary,b.getSalary).get();
+
+// find 2nd higest salary
+Employee secHighestSalary = employees.stream().sorted((a,b)->Double.compare(b.getSalary(),a.getSalary()).skip(1).findFirst().get();
+
+// Top 3 Salary
+
+List<Employee> topThree = employees.stream().sorted((a,b)->Double.compare(b.getSalary(),a.getSalary()).limit(3).toList();
+
+--------------------------------------------------------------------------------------------------------------------------
+-Find out last 3 record in sql
+select salary from employee
+order by salary desc
+limit 3;
+
+select * from employees
+order by empId desc
+limit 3;
+
+--------------------------------------------------------------------------------------------------------------------------
+-Find no of employee in each department
+select department , count(empId) as empCount
+from employee_table
+group by department;
+
+
+-Find highest salary in each department
+select department, max(salary)
+from employee_table
+group by department;
+
+-Find the duplicate email from employee_table
+select email, count(email) as duplicateEmail
+from employee_table
+group by email
+having count(email) > 1;
+
+-Get first 3 max salary
+select salary
+from employee
+order by salary desc
+limit 3;
+
+-Find 3rd highest salary
+select salary
+from employee
+order by salary desc
+limit 1 offset 2;
+
+
+
+===========================================================================================================================================================
+Stream API
+- Grouping books by author using Stream API
+-Stream to get top 3 highest salaries
+-3rd highest salary
+-find the max salary
+-First repeating and first non repeating input = "Java articles are Awesome";
+-Find duplicate element from (10,15,8,49,25,98,98,32,15);
+-Generate Fibonacci series from 0,1 .
+-find out all the numbers starting with 1 using Stream functions? (123, 456, 101, 900, 150, 1001, 1234);
+- (5,8,39,3,19,14,17);
+- Find duplicate name, longest name ("Apple", "Banana", "Apple", "Banana", "Orange", "Apple");
+- write logic to get sum of salary of employees belonging to a department
+- List<String> str = Arrays.asList("5AA", "8BB", "CC", "AA");
+- Find common int[] arr1 = {1,2,3,4,5};  int[] arr2 = {6,7,2,3,4};
+- String str = "ab8cd syz9";
+===========================================================================
+Map<Character, Long> maptoFrequency = str.chars().filter(i->i !=' ').mapToObj(i->(char)i)
+                                      .collect(Collectors.groping(Function.identity(), LinkedHashMap::new, Collectors.counting))
+
+----------------------------------------------------------------------
+-Group by type and calculate total amount for each type
+- List<Transaction> transactions = Arrays.asList(
+                new Transaction("Deposit", 1000),
+                new Transaction("Withdraw", 500),
+                new Transaction("Deposit", 2000),
+                new Transaction("Deposit", 1500),
+                new Transaction("Withdraw", 300)
+        );
+--------------------------------------------------------------------------
+Map<String, Long> data = transaction.stream().
+
+        // Example list of books
+        List<Book> books = Arrays.asList(
+                new Book("Book1", "Author1"),
+                new Book("Book2", "Author2"),
+                new Book("Book3", "Author1"),
+                new Book("Book4", "Author3"),
+                new Book("Book5", "Author2")
+        );
+
+        // Grouping books by author using Stream API
+        
+-----------------------------------------------------------------------
+- Find max salary?
+- Find 2nd highest salary?
+- Find highest 3 record?
+List<Employee> employees = Arrays.asList(
+                new Employee("Alice", 50000),
+                new Employee("Bob", 75000),
+                new Employee("Charlie", 120000),
+                new Employee("David", 95000)
+        );
+
+----------------------------------------------------------------------------------------------------------------------------------
+Stream.iterate(new int[] {0,1}, t->new int[] {t[1], t[0]+t[1]).limit(10).map(t->t[0]).forEach(System.out::println);
+
+String input = "Java articles are Awesome";
+Map<Character, Long> charCount = input.chars().mapToObj(i->(char)i).collect(Collectors.groupingBy(Function.identity(),LinkedHashMap:new Collectors.counting());
+Character firstRepeat = charCount.entrySet().stream()
+                        .filter(entry->entry.getValue() >1)
+                        .map(Map.Entry::getKey)
+                        .findFirst().get();
+
+Character fristNonRepeat = charCount.entrySet().stream()
+                           .filter(entry->entry.getValue = 1)
+                           .map(Map.Entry::getKey)
+                           .findFirst().get();
+ 
+
+
+
+Employee maxSalary = employees.stream().max((a,b)->Double.compare(a.getSalary,b.getSalary).get();
+Employee secHighestSalary = employees.stream().sorted((a,b)->Double.compare(b.getSalary(),a.getSalary)).skip(1).findFirst().get();
+List<Employee> top3Record = employees.stream().sorted((a,b)->Double.compare(b.getSalary(),a.getSalary()).limit(3).toList();
+
+
+
+select max(salary) from employee
+select salary from employee order by salary desc limit 1 offset 1
+select salary from employee order by salary desc limit 3;
+
+
+
+
+Map<String, List<Book>> groupByAuthor = books.stream.collect(Collectors.groupingBy(Book::getAuthor));
+
+Map<String, Double> groupByType = transaction.stream()
+                                .collect(Collectors.groupingBy(Transaction::getType, Collectors.summingDouble(Transaction::getAmount)));
+-------------------------------------------------------------------------------------------------------------------------------
+List<EmployeeA> employees = Arrays.asList(
+                new EmployeeA("Alice", 28, 50000),
+                new EmployeeA("Bob", 35, 60000),
+                new EmployeeA("Charlie", 35, 70000),
+                new EmployeeA("David", 28, 40000),
+                new EmployeeA("Eve", 45, 80000)
+        );
+
+        Map<Integer, List<String>> ageToNames = employees.stream()
+                .collect(Collectors.groupingBy(
+                        EmployeeA::getAge,
+                        Collectors.mapping(EmployeeA::getName, Collectors.toList())
+                ));
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+@FunctionalInterface
+public interface Test{
+
+    int sum(int a, int b);
+
+}
+------------------------------------
+
+
+02/03/2025
+
+product api
+
+update product with image
+filter
+product bulk import
+
+unit testing for create product and get product
+
+
+===========================================================
+
+stream api
+collection framework
+Core Java
+UNIT testing
+  @SpringBootTest
+  @Mock
+  @InjectMocks
+  @BeforeEach
+  @Test
+  @ParameterizedTest
+  @ValueSource(ints = {1, 2, 3, 4, 5})
+
+
+kafka 
+AWS
+Microservices architecture
+SOLID principle
+Design Pattern
+  singleton
+  factory
+  abstract
+
+
+GCP
+
+
+============================================================
+-- Users Table
+CREATE TABLE users (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    enabled BOOLEAN NOT NULL DEFAULT TRUE
+);
+
+-- Roles Table
+CREATE TABLE roles (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    role VARCHAR(255) NOT NULL
+);
+
+-- User_Roles Table (Many-to-Many relationship)
+CREATE TABLE user_roles (
+    user_id BIGINT,
+    role_id BIGINT,
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (role_id) REFERENCES roles(id)
+);
