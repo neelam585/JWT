@@ -418,24 +418,41 @@ GCP
 
 
 ============================================================
--- Users Table
-CREATE TABLE users (
-    id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(255) NOT NULL,
-    password VARCHAR(255) NOT NULL,
-    enabled BOOLEAN NOT NULL DEFAULT TRUE
-);
+============================================================
+load balancing through gateway and rest templat, feigh client
+when we should use rest template and when feighclient
+when we should used NoSQL and when RDBMS
+code review in java
+If we have 100 microservice the we should create 100 docker container , how we can manage those container? 
+how do you manage the versioning of docker images?
+Where is docker image location in Windows 10? command:docker info
+how we can devide monolithick application in to multiple microservices?
+what distributed transaction, SAGA , type of SAGA pattern and 2pc
+builder design
+why functional interface introduce in java?
+why java is not pure object oriented language?
+why we use wrapper class?
+what is trace id and span id in zipkin?
+cloud watch alert ?
+how you log your source code?
+how to make a method Synchronized , what is synchronized block and use of it?
+config client?
+any clue has the deployment is done?
 
--- Roles Table
-CREATE TABLE roles (
-    id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    role VARCHAR(255) NOT NULL
-);
 
--- User_Roles Table (Many-to-Many relationship)
-CREATE TABLE user_roles (
-    user_id BIGINT,
-    role_id BIGINT,
-    FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (role_id) REFERENCES roles(id)
-);
+
+
+
+
+-----------------------------------------------------------
+actuator endpoint should be different from your server end 
+code review: all the design pattern should be followed, solid pattern , naming convention
+
+
+
+-functional interface introduce in java such that we can pass a function in a method as an argument
+-use of wrapper classes: working with collections, and handling nullable values where primitives cannot.
+
+public static cynchronise methodName(){
+
+}
