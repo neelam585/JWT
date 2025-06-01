@@ -1,0 +1,264 @@
+cloning of object
+why we need cloning
+what is the use of static and default method in functional interface
+What is the use of @controller and @RestController
+Comperator and Comperable ?
+
+
+
+List<Integer> list=Arrays.asList(1,2,3,4,5,6,5,6)
+
+List<Integer> freq = list.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting())
+                          
+                    .entrySet.stream()
+                    .filter(entry->entry.getValue() >1)
+                    .map(Map.Entry::getKey)
+                    .collect(Collectors.toList());
+
+	String str = "Java is a good programming language";
+		Map<String, Long> fre = Arrays.stream(str.split("\\s+")).collect(
+		    Collectors.groupingBy(Function.identity(), Collectors.counting())
+		    );
+		    System.out.println(data);
+		    
+		    int[] array1 = {2,3,9,1,5, -1, -4};
+		    List<Integer> positive = Arrays.stream(array1).boxed().filter(n->n>0).toList();
+System.out.println(positive);
+
+Map<String, List<Integer>> data1 = Arrays.stream(array1).boxed()
+.collect(Collectors.groupingBy(n->n>0 ? "pos": "negative"));
+System.out.println(data1);
+
+Map<Boolean, List<Integer>> data2 = Arrays.stream(array1).boxed().collect(
+    Collectors.partitioningBy(n->n >0)
+    );
+
+	int [] arr1 = {3,4,3,4,5,6,9,7};
+	
+	Map<Integer, Long> repeatedNum = Arrays.stream(arr1).boxed().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()))
+	.entrySet().stream()
+	.filter(entry->entry.getValue()>1)
+	.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    
+    System.out.println(repeatedNum);
+
+String str1 = "ab8cd syz9";
+	Map<Character, Long>  frequencty= str1.chars().filter(i->i !=' ').mapToObj(i->(char)i).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+
+
+int[] arr1 = {1,2,3,4,5};
+int[] arr2 = {3,4,5,6,7};
+Set<Integer> set = Arrays.stream(arr1).boxed().collect(Collectors.toSet());
+List<Integer> num = Arrays.stream(arr2).boxed().filter(set::contains).toList();
+
+int k =2;
+Integer kthElement = Arrays.stream(arr2).boxed().sorted().skip(k-1).findFirst().get();
+
+List<Integer> numb =Arrays.asList(5,6,7,8,9);
+
+int k =2;
+Integer kthElement = numb.stream().sorted().skip(k-1).findFirst().get();
+
+  Arrays.asList(2,3,4),
+    Arrays.asList(4,5,6),
+    Arrays.asList(7,8,9)
+    );
+    
+    List<Integer> num = listOfList.stream().flatMap(List::stream).sorted().toList();
+
+Stream.iterate(new int[]{0,1}, t->new int[]{t[1], t[0]+t[1]}).limit(10).map(i->i[0]).forEach(System.out::println);
+
+
+
+String str3 = "helloworld";
+   
+   List<String> words = Arrays.stream(new String[] 
+   {str3.substring(0,5), str3.substring(5)})
+   .collect(Collectors.toList());
+   
+System.out.println(words);
+
+//output [hello, world]
+-----------------------------------------------------------------------------------------------------------------------------------------------
+ List<Product> products = Arrays.asList(
+            new Product("Laptop", 1200.0),
+            new Product("Smartphone", 800.0),
+            new Product("Tablet", 400.0),
+            new Product("Smartwatch", 250.0)
+        );
+      Map<Boolean, List<Product>> highProduct = products.stream().collect(Collectors.partitioningBy(n->n.getPrice() > 400));
+
+Map<String, List<String>> highProductName = products.stream().collect(Collectors.groupingBy(n->n.getPrice()>400 ? "High": "Low" ,Collectors.mapping(Product::getName, Collectors.toList())));
+
+Optional<Product> maxProductName = products.stream().max(Comparator.comparing(Product::getPrice));
+
+---------------------------------------------------------------------------------
+Stream API
+-
+- Grouping books by author using Stream API
+-Stream to get top 3 highest salaries
+-3rd highest salary
+-find the max salary
+-First repeating and first non repeating input = "Java articles are Awesome";
+-Find the frequency of each word input = "Java articles are Awesome";
+-Find duplicate element from (10,15,8,49,25,98,98,32,15);
+-Generate Fibonacci series from 0,1 .
+-find out all the numbers starting with 1 using Stream functions? (123, 456, 101, 900, 150, 1001, 1234);
+- (5,8,39,3,19,14,17);
+- Find duplicate name, longest name ("Apple", "Banana", "Apple", "Banana", "Orange", "Apple");
+- write logic to get sum of salary of employees belonging to a department
+- List<String> str = Arrays.asList("5AA", "8BB", "CC", "AA");  find the str that start with digit?
+- Find common int[] arr1 = {1,2,3,4,5};  int[] arr2 = {6,7,2,3,4};
+- Find occurrence of each char and remove space : String str = "ab8cd syz9"; 
+-Implement a method to partition a list into two groups based on a predicate using Java streams:
+- Given a list of strings, find the frequency of each word using Java streams:
+-Find the kth smallest element in an array using Java streams: int[] array = {4, 2, 7, 1, 5, 3, 6};
+-Given a list of transactions, find the sum of transaction amounts for each day using Java streams:
+-Remove duplicates from a list while preserving the order using Java streams:
+-Find the intersection of two lists using Java streams:
+-Merge two sorted lists into a single sorted list using Java streams:
+- Find the longest string in a list of strings using Java streams:
+-Given a list of integers, find all non duplicate integers using Java streams:
+
+Transaction
+date
+amount
+Map<String, Double> dateAmount = transaction.stream().collect(Collectors.groupingBy(Transaction::getDate(),Collectors.summingDouble(Transaction::getAmmount());
+
+Integer num = Arrays.stream(array).boxed().sorted().skip(k-1).findFirst().get();
+
+Map<Character, Long> frequ = input.chars().mapToObj(i->(char)i).filter(i->i !=' ').collect(Collectors.groupingBy(Function.identity(),Collectors.counting());
+
+List<Integer> set1 = Arrays.stream(arr1).boxed().collect(Collectors.toSet());
+List<Integer> common = Arrays.stream(arr2).boxed().filter(set1.contain()).toList();
+
+str.stream().collect(Collectors.groupinBy(Function.identity(),Collectors.counting)).filter(s->s.maitchAny(".*//d.*")).toList();
+
+Employee
+dep
+salary
+Map<String, Long> sumSalary = emp.stream().collect(Collectors.groupinBy(Employee::getDep), Collectors.summingInt(Employee::getSalary));
+
+Map<String, Long> dupName = name.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()).entrySet().stream()
+.filter(entry->entry.getValue >1).collect(Collectors.toMap(Map.Entry::getKey(), Map.Entry::getValue());
+
+List<String> dupName = fruitName.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()).entrySet().stream()
+.filter(entry->entry.getValue>1).map(Map.Entry::getKey).toList();
+
+
+
+
+Arrays.stream(input.split("\\s+").map(String::toUpperCase).collect(Collectors.groupingBy(w->w, Collectors.counting());
+
+
+
+Integer smallest = num.stream().sorted().findFirst().get();
+Integer maxElement = num.stream().max(Integer::Compare).get();
+List<Integer> remove = numOrigl.stream().filter(n->!n.equals(smalles) && n->!n.equals(maxElement)).toList();
+
+List<Integer> numwith1 = num.stream().map(String::valueOf).filter(n->n.startWith("1")).map(Integer::valueOf).toList();
+
+
+Map<Integer, Long> dupNum = num.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()).entrySet().stream()
+.filter(entry->entry.getValue()>1).collect(Collectors.toMap(Map.Entry::getKey(), Map.Entry::getValue());
+
+Character firstRepeat = input.Chars().mapToObj(i->(char)i).collect(Collectors.groupingBy(Function.identity(),Collectors.countring())
+.entrySet().stream.filter(entry->entry.getValue >1).map(Map.Entry::getKey).get();
+
+Employee maxSalary = emp.stream().max((a,b)->Double.compare(a.getSalary(),b.getSalary()).get();
+
+
+Employee
+id
+salary
+Employee highSalary = emp.stream().sorted((a,b)->Double.compare(b.getSalary,a.getSalary()).limit(3).toList();
+
+
+Book
+name
+author
+Map<String, List<Book>> bookByAuthor = book.stream().collect(Collectors.groupingby(Book::getAuthor));
+
+
+=======================================================================================================================================================
+import java.util.function.Consumer;
+
+public class LambdaExample {
+    public static void main(String[] args) {
+        int localVar = 10; // Local variable
+        
+        Consumer<Integer> consumer = x -> {
+            // localVar++; // This line will cause a compilation error
+            System.out.println("Value is: " + (x + localVar));
+        };
+
+        consumer.accept(5);
+    }
+}
+----------------------------------------------------------
+public class LambdaExample {
+    private int instanceVar = 10; // Instance variable
+
+    public static void main(String[] args) {
+        LambdaExample example = new LambdaExample();
+        example.execute();
+    }
+
+    public void execute() {
+        Runnable task = () -> {
+            instanceVar++; // Allowed
+            System.out.println("Updated instance variable: " + instanceVar);
+        };
+
+        task.run(); // Output: Updated instance variable: 11
+    }
+}
+
+The instance variable and static variable is stored in the heap memory.
+
+-----------------------------------------------------------------
+- Difference b/w AndThen and Compose
+
+ Function<Integer, Integer> multiplyByTwo = x -> x * 2;
+        Function<Integer, Integer> addThree = x -> x + 3;
+
+        // AndThen: (* 2) -> (x + 3)
+        Function<Integer, Integer> andThenFunction = multiplyByTwo.andThen(addThree);
+
+        System.out.println(andThenFunction.apply(5)); // (5 * 2) + 3 = 13
+
+/ Compose: (x + 3) -> * 2
+        Function<Integer, Integer> composedFunction = multiplyByTwo.compose(addThree);
+
+        System.out.println(composedFunction.apply(5)); // (5 + 3) * 2 = 16
+
+---------------------------------------------------------------------------
+- To generate an infinite stream of elements which is suitable for stream of random elements, Stream has 
+2 static methods called Stream.generate() & Stream.iterate()
+
+--------------------------------------------------------------
+toMap()– Convert stream into a Map after applying key/value determination function.
+ • counting()– Counting number of stream elements
+ • joining()- For concatenation of stream elements into a single String
+ • minBy()- To find minimum of all stream elements based on given Comparator
+ • maxBy()- To find maximum of all stream elements based on given Comparator
+ • reducing()- Reducing elements of stream based on BinaryOperator function provided
+
+---------------------------------
+ A parallel stream is a stream that splits its elements into
+ multiple chunks, processing each chunk with a different
+ thread. 
+--------------------------------------------------------------------------
+ Java 8 team provides several default methods inside Map interface. Below are the few
+ important enhancements happened for Map,
+ ✓ forEach()- > Using this we can iterate the map values easily
+ ✓ Entry.comparingByValue-> Sorting the map elements based on value
+ ✓ Entry.comparingByKey-> Sorting the map elements based on key
+ 78
+ ✓ getOrDefault()– Can be used to pass a default value instead of null if key is not present
+ ✓ computeIfAbsent()– Can be used to calculate a value if there is no for given key
+ ✓ computeIfPresent()– If the specified key is present, calculate a new value for it
+ ✓ Compute()- Calculates a new value for a given key and stores it in the Map
+ ✓ remove(key,value)– To remove a map element if both key & value matches
+ ✓ replace()– For replacement of values if the key is available
+ ✓ replaceAll()- For replacement of all the values inside the map
