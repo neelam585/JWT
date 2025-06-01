@@ -1,3 +1,68 @@
+1347542017528  paring key
+====================================================================================================================s
+
+https://performancemanager5.successfactors.eu/sf/home
+
+https://career5.successfactors.eu/portalcareer?_s.crb=1mRBgdGz82%252fPLVU66gDK83Cqx792LTmxBtea33AWAIw%253d
+
+capgimini: https://mail.google.com/mail/u/1/#inbox/FMfcgzQbfLRNGsHBqfmlHKsbPQcmQKld
+
+UAN Docs URGENTLY REQUIRED
+BGV: https://mail.google.com/mail/u/1/#inbox/FMfcgzQbfBtlrcRvShSvpZMTcFwpmXNw
+-------------------------------
+6300256893
+nps : 110136714251
+
+AADHAAR: 493071274623
+UAN: 101880243441
+icici: 411501503931
+user Id: 572314994
+pass: nee#March@25
+service history 
+
+Nagarro:  JAVA Assessment Link
+wipro: https://mail.google.com/mail/u/0/#inbox/FMfcgzQbdrWBbhrNZhNmcvCMtkNfBqCL
+
+
+Test
+https://www.codechef.com/java-online-compiler
+https://www.codechef.com/practice/java
+AI : codeium plugin 
+
+Dev Oops: https://github.com/yankils/Simple-DevOps-Project
+Dev Oops:https://www.udemy.com/course/devops-cicd-with-jenkins-maven-gradle-sonarqube-docker-ansible/learn/lecture/31877526#overview
+
+Maven: https://github.com/yankils/hello-world
+AWS: https://opentelemetry.io/docs/demo/architecture/
+AWS: https://www.udemy.com/course/ultimate-devops-project-with-resume-preparation/learn/lecture/48207617#overview
+
+
+
+https://www.interviewbit.com/java-mcq/
+https://www.placementpreparation.io/mcq/object-oriented-programming/
+https://www.sanfoundry.com/java-questions-answers-freshers-experienced/#google_vignette
+
+https://medium.com/@azizmarzouki/spring-boot-quiz-30-mcqs-to-boost-your-understanding-of-the-framework-692062010897
+https://medium.com/@javacharter/tackling-java-8-microservices-spring-boot-mcqs-5d88de9bbba7
+https://www.udemy.com/course/java-multithreading-and-parallel-programming-masterclass/learn/lecture/23352054#overview
+https://www.udemy.com/course/java-multithreading-concurrency-interview-practice-exams/learn/quiz/5163174/test#notes
+
+Agile: https://www.udemy.com/course/java-interview-help/learn/lecture/27961724#overview
+
+Security: https://www.udemy.com/course/spring-security-zero-to-master/learn/lecture/22571550#overview
+Security:      https://www.udemy.com/course/spring-springboot-jpa-hibernate-zero-to-master/learn/lecture/30748766#overview
+microservice security: https://www.udemy.com/course/master-microservices-with-spring-docker-kubernetes/learn/lecture/39945416#overview
+microservice security:https://github.com/eazybytes/microservices  ******
+
+https://github.com/Java-Techie-jt/jwt-apigateway-security/tree/main
+
+https://www.udemy.com/course/java-virtual-thread/learn/lecture/40791890#overview
+
+
+================================
+MITTAL.VAISHALI@TCS.COM
+Chinmoy Chatterjee
+
 REACT
 React router dom ?
 React.memo() is higher order component
@@ -7,7 +72,7 @@ React JS: Development Challenges and Their Solutions?
 
 ========================================================================================
 
-synchronous and asynchronous 
+synchronous and asynchronous
 RestTemplate , advantage of RestTemplate , disadvantage
 DTO pattern
 use of service registry?
@@ -16,6 +81,43 @@ zipkin , problem that solve zipkin
 
 
 ----------------------------------------------------------------------------
+-wat is System.out.println() ?
+-how we can call singleton class in multiple thread
+-how we can call non static method in static method ?
+-course in spring boot
+-memory lekage ?
+-how to implement payment gateway in java
+-Connection pool?
+-After consuming the message what will happen in kafka?
+-how we can check error in production?
+-Performance tuning in sql?
+-How do you handle stack overflow error
+-How to customize exception handler class?
+-write the code for, how to serialize and deserialize class?
+-API security, method level security ?
+-API versioning , Gateway in AWS, 
+-Difference between sql and NoSQL?
+-ControleM, object query in hibernate, microservice scenario based question ?
+-ese and isHas method in interface ?
+-status code
+-Primary and Foreign key with example?
+-What will happen if we use PUT instead of POST?
+-What is Thread safe and how to achieve.
+-How to implement Isolation in ACID, what are the isolation level.
+-Status code ?
+-Find list of employee who has salary >50,000 and avg salary 
+-jwt token in microservice     ******
+- how do you handle exception handling in microservice
+-what are the Annotation
+-spring boot starter
+-Spring and Spring boot framework?
+
+-circuit breaker ? library for circuit breaker
+-
+ //Java 8 program to convert input 2ag3ho5kl and output agaghohohoklklklklkl
+   String input = "agaghohohoklklklklkl";
+---------------------------------------------
+
 dynamic service discovery?
 it enable the microservices to communicate with each other.
 benefit: 
@@ -30,10 +132,39 @@ concruntModification exception, concurrent HashMap, CopyOnWriteArrayList class ?
 fail fast and fail safe?
 how to communicate between 2 microservices?
 ===============================================================================
+-@Qualifier ?
+- what is transient keyword in java?
+- immutuable can be final ?
+-What is HashMap inhancement 
+cloning of object
+why we need cloning
+what is the use of static and default method in functional interface
+What is the use of @controller and @RestController
+Comperator and Comperable ?
+
+-how to secure your payload from hacker
+-how to create token
+-how to use jpa in microservices
+
+-
+-@ResponseEntity
+-What is jar , war and ear?
+-Spring boot admin server and actuator?
+-When we should use hashmap and concurrent hashmap?
+-Thread state
+-Internal working of hashSet?
+-Why we can not override static method?
+static methods in Java cannot be overridden because static methods are associated with the class itself rather than an instance of the class
+-Why we need RestController if we are using gateway?
+-How to use any other server instead of tomcat?
+-What are the query optimization technique?
+-What are sonar report and report scanner.
 -Marker interface ?
 -Write code for asynchronous communication between 2 microservices?
 -What actuator
 -What is DAO ? 
+-Rase condition, dedlock?
+
 
 -What are the major chalanges in microservices.
 
@@ -83,6 +214,11 @@ fatal: this operation must be run in a work tree
 
 git config --unset core.bare
 ----------------------------------------------------
+ git add demo/
+git commit -m "Add spring security folder"
+ git push -u origin main
+
+
 =========================================================================================================
 
 grouping by author
@@ -128,14 +264,22 @@ https://www.youtube.com/watch?v=IMEzmmP3WAs
 https://github.com/LearnCodeWithDurgesh/micro_yt
 https://github.com/eazybytes/microservices
 https://github.com/EmbarkXOfficial/ecom-microservices/tree/main
+https://github.com/EmbarkXOfficial/fitness-app-microservices/tree/main
+https://www.udemy.com/course/event-driven-microservices-with-cqrs-saga-event-sourcing/learn/lecture/46776187#overview
 
 
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 https://www.udemy.com/course/java-spring-boot-microservices-with-spring-cloud-k8s-docker/learn/lecture/44773467#overview
-implement kafka: https://github.com/eazybytes/microservices/blob/3.4.1/section_14/accounts/
+implement kafka: https://github.com/eazybytes/microservices/blob/3.4.1/section_14/accounts/    ***********
+kafka: https://www.udemy.com/course/spring-framework-6-beginner-to-guru/learn/lecture/36097748#overview
 
 Docker: https://rameshfadatare.medium.com/how-to-create-and-deploy-spring-boot-microservices-using-docker-fa1757d0805a#:~:text=In%20a%20microservices%20architecture%2C%20an,package%20these%20microservices%20into%20containers.
+
+-----------------------------------------------------------------------------------------------
+java featue
+https://github.com/eazybytes/Java-New-features/tree/main/Java9
+
 ==================================================================================================
 
 Interview Scheduled with Capgemini L1 --45734.9001388889
@@ -186,6 +330,10 @@ Maximum load factor is 75 % of the bucket.
 when the load factor is > .75 then java resize the hashtable automitacily to avoid the too many collision.
 
 ==========================================================================================================================
+jar(Java archive): it contain .class file
+war(web archive): like zip file
+ear(enterprice archive):
+
 SQL
 
 -Find Department that have highest employee from employee_table
@@ -279,7 +427,17 @@ Stream API
 - write logic to get sum of salary of employees belonging to a department
 - List<String> str = Arrays.asList("5AA", "8BB", "CC", "AA");
 - Find common int[] arr1 = {1,2,3,4,5};  int[] arr2 = {6,7,2,3,4};
-- String str = "ab8cd syz9";
+- Find occurrence of each char and remove space : String str = "ab8cd syz9"; 
+-Implement a method to partition a list into two groups based on a predicate using Java streams:
+- Given a list of strings, find the frequency of each word using Java streams:
+-Find the kth smallest element in an array using Java streams: int[] array = {4, 2, 7, 1, 5, 3, 6};
+-Given a list of transactions, find the sum of transaction amounts for each day using Java streams:
+-Remove duplicates from a list while preserving the order using Java streams:
+-Find the intersection of two lists using Java streams:
+-Merge two sorted lists into a single sorted list using Java streams:
+- Find the longest string in a list of strings using Java streams:
+-Given a list of integers, find all non duplicate integers using Java streams:
+
 ===========================================================================
 Map<Character, Long> maptoFrequency = str.chars().filter(i->i !=' ').mapToObj(i->(char)i)
                                       .collect(Collectors.groping(Function.identity(), LinkedHashMap::new, Collectors.counting))
@@ -322,7 +480,7 @@ List<Employee> employees = Arrays.asList(
 Stream.iterate(new int[] {0,1}, t->new int[] {t[1], t[0]+t[1]).limit(10).map(t->t[0]).forEach(System.out::println);
 
 String input = "Java articles are Awesome";
-Map<Character, Long> charCount = input.chars().mapToObj(i->(char)i).collect(Collectors.groupingBy(Function.identity(),LinkedHashMap:new Collectors.counting());
+Map<Character, Long> charCount = input.chars().mapToObj(i->(char)i).collect(Collectors.groupingBy(Function.identity(),LinkedHashMap:new, Collectors.counting());
 Character firstRepeat = charCount.entrySet().stream()
                         .filter(entry->entry.getValue() >1)
                         .map(Map.Entry::getKey)
@@ -418,7 +576,10 @@ GCP
 
 
 ============================================================
+<<<<<<< HEAD
+=======
 ============================================================
+>>>>>>> 3f193d03414701c41e189386aa94ddfc0ff5d9c0
 load balancing through gateway and rest templat, feigh client
 when we should use rest template and when feighclient
 when we should used NoSQL and when RDBMS
@@ -438,6 +599,278 @@ how you log your source code?
 how to make a method Synchronized , what is synchronized block and use of it?
 config client?
 any clue has the deployment is done?
+<<<<<<< HEAD
+
+17/04/2025
+map and mapTo in stream
+microservices: rest api, mesg broker, jrbc
+webhook, long , connection polling, 
+how to handle cascading failure in microservices
+cluster index and non cluster index
+what is views and table in database?
+type of deployment
+singleton design pattern and give it thread safe implementation
+how to avoid deadlock in java?
+@ResponseBody
+concurrent and synchronized hashmap 
+views , indexing in sql
+
+docker container
+
+dedlock, ladlock, race condition
+where you have used singleton design pattern in your project?
+
+factory, singleton, incaptulation
+if you try to insert 10 million element in the middle of linklist how will it perform compared to an array list?
+Why would using a HashTable leads to potential issue in highly concurrent environment even though it is synchronized?
+If we have 10 microservice and 2 services is getting failed how do you handle it?
+What it the purpose of constructor can a constructor be static or final, can override  ?
+Why is it important minimize coupling and maximize cohesion 
+can you have a low coupling and low cohesion at the same time and also provide the example?
+About spring security and ways to it?
+difference between REST API and SOAP
+How to merge two unsorted arrays and print the merge one in sorted way by using stream api?
+
+-------------------------------------------
+19/04/2025
+
+ 
+
+
+
+
+-----------------------------------------------------------
+
+actuator endpoint should be different from your server end 
+code review: all the design pattern should be followed, solid pattern , naming convention
+
+
+
+-functional interface introduce in java such that we can pass a function in a method as an argument
+-use of wrapper classes: working with collections, and handling nullable values where primitives cannot.
+--------------------------------------------
+How to Fix a Race Condition ?
+public synchronized void increment() {
+    counter++;
+}
+------------------------------------------------
+19/04/2025
+
+Use mapToInt, mapToLong, or mapToDouble when you need to work with primitives.
+ .mapToLong(Employee::getSalary) , .mapToInt(String::length)
+--------------------------------------------------
+docker-compose.yml
+command
+docker-compose up
+docker-compose ps command list all the containers in the current docker-compose file.
+docker-compose down : This command stops all the services and cleans up the containers, networks, and images.
+
+=======================================================================================================================================
+
+ What is the purpose of Kafka's "rebalance" process? :To assign partitions to consumers in a consumer group dynamically
+
+Messages are processed in order within a partition by the assigned consumer
+
+Which Kafka configuration controls the time a consumer waits before it considers itself as the leader during rebalancing? : session.timeout.ms
+
+spring.kafka.consumer.partition-assignment-strategy
+
+ What happens if a Kafka producer does not receive an acknowledgment for a message due to a broker failure?: The message is lost if retries are not configured
+
+In a Kafka-based Spring Boot application, what is the purpose of the spring.kafka.consumer.auto-offset-reset property? 
+To determine what the consumer should do when no initial offset is found
+
+By enabling the spring.kafka.producer.idempotence property
+
+Each partition acts as an independent channel, enabling parallel processing and fault tolerance.
+
+Because compaction always keeps the most recent value for each key, it is perfect for providing backing to ksqlDB tables, or Kafka Streams KTables.
+
+
+In Kafka versions 2.4 and above, the sticky partitioner aims to keep messages without keys together in the same partition.
+
+If retries are exhausted, the message is sent to a Dead Letter Topic (DLT) for further investigation and handling. 
+How does Spring Kafka handle retries for failed message consumption? :It uses the RetryTemplate configured in the KafkaListenerContainerFactory
+
+n Kafka Streams, a KTable represents a changelog stream where each record is an update to a key-value pair, effectively holding the latest state for each key
+
+acks=all: Ensures that all replicas acknowledge the message before it is considered successful
+
+How can you enable distributed tracing for Kafka in a microservices environment?  :use OpenTelemetry or OpenTracing liberary
+
+Kafka Clients provides three built-in strategies (Partition distribution): Range, RoundRobin and StickyAssignor.
+
+Subsequently, the message is appended to the end of the log within that partition.
+Within a single partition, Kafka ensures that messages are processed in the same order they were received.
+
+Across different partitions, Kafka does not impose a guaranteed order
+
+
+Data affinity refers to the intentional grouping of related data within the same partition. By sending related data to specific partitions, we ensure that it is processed together, leading to increased processing efficiency.
+
+
+Kafka directs messages with identical keys to the same partition, optimizing the processing of related data. 
+
+===========================================================================================================================================
+
+EXECUTOR Framework
+
+What is the default rejection policy in a ThreadPoolExecutor? AbortPolicy
+
+ExecutorService = incoming queue + worker threads
+CompletionService = incoming queue + worker threads + output queue
+
+
+=====================================================================================================================================================
+JAVA
+
+public class FinallyReturnExample {
+    public static String testFinallyReturn() {
+        try {
+            System.out.println("In try block");
+            return "Return from try";
+        } catch (Exception e) {
+            System.out.println("In catch block");
+            return "Return from catch";
+        } finally {
+            System.out.println("In finally block");
+            return "Return from finally"; // Overrides previous return values
+        }
+    }
+
+    public static void main(String[] args) {
+        String result = testFinallyReturn();
+        System.out.println("Result: " + result);
+    }
+}
+
+//OUTPUT
+In try block
+In finally block
+Result: Return from finally
+-----------------------------------------------------------------------------
+
+=====================================================================================================================================================
+
+Hibernate
+
+@SecondaryTable
+
+In Hibernate, a detached object is an instance of a persistent entity that is no longer associated with an active Hibernate Session. When a detached object is passed to the update() method, Hibernate reattaches it to the current Session and transitions it back to a persistent state. The update() method is used to synchronize the detached object's state with the database.
+
+----------------------------------------
+In Hibernate, which query is better for bulk updates?
+HQL
+--------------------------------
+The @Lob annotation is used to map large objects such as BLOB (Binary Large Object) and CLOB (Character Large Object) to corresponding database columns.
+------------------------------------
+The hibernate.show_sql property logs the generated SQL statements to the console for debugging purposes.
+
+--------------------------------------
+ The second-level cache is designed to share cached data across multiple sessions and can be configured using external cache providers like Ehcache or Infinispan.
+--------------------------------------
+The default identifier generator strategy in Hibernate is AUTO, which selects the appropriate strategy based on the underlying database dialect.
+-------------------------------------
+The @Transient annotation marks a field to be excluded from database persistence.
+-------------------------------------------
+@Transient: A Hibernate-specific annotation to exclude a field from persistence.
+
+transient keyword: A Java keyword to exclude a field from serialization (not specific to Hibernate).
+--------------------------------------------
+persist() is a JPA standard method and ensures the object becomes managed.
+
+save() is a Hibernate-specific method and returns the generated identifier.
+--------------------------------------------
+Hibernate is a JPA implementation that provides additional features like caching, Criteria API, and better support for advanced mappings.
+-------------------------------------------------
+JPA: Provides core methods like persist(), merge(), remove(), and find().
+
+Spring Data JPA: Adds convenience methods like save(), delete(), deleteById(), and findById() on top of JPA.
+
+Spring Data JPA simplifies repository operations and is ideal for rapid development, while JPA offers more control and flexibility.
+
+-----------------------------------
+gRPC supports bi-directional streaming
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+OPTIONAL
+
+ Optional<Product> optProd = Optional.empty(); // Creating an empty optional
+ ✓ Optional<Product> optProd = Optional.of(product); // Optional from a non-null value
+ ✓ Optional<Product> optProd = Optional.ofNullable(product); 
+
+----------------------
+ empty- Returns an empty Optional instance
+ 10
+ ✓ isPresent- Returns true if a value is present; otherwise, returns false
+ ✓ ifPresent- If a value is present, invokes the specified consumer with the value; otherwise,
+ does nothing
+ ✓ get- Returns the value wrapped by this Optional if present; otherwise, throws a
+ NoSuchElementException
+ ✓ map-If avalue is present, applies the provided mapping function to it
+ ✓ orElse- Returns the value if present; otherwise, returns the given default value
+ ✓ orElseGet- Returns the value if present; otherwise, returns the one provided by the given
+ Supplier
+ ✓ orElseThrow- Returns the value if present; otherwise, throws the exception created by the
+ given Supplie
+--------------------------------------------------------------------
+Use Cases of Idempotent Keys
+POST /api/payment
+Headers: Idempotent-Key: 12345-abcde
+     -Payment Processing:
+     -To avoid creating duplicate resources in case of retries.
+     
+Appending an element to a StringBuilder is not idempotent.
+
+Yes, you can use idempotency keys with POST requests, but not with GET and DELETE requests.
+All methods in a Set are idempotent.
+
+How can idempotency be implemented in a payment gateway API? :  By using an idempotent key for each transaction request.
+--------------------------------------------------------------------------------------------------------------------------
+A race condition in Java occurs when multiple threads access and manipulate shared data simultaneously, and the outcome of the execution depends on the order in which the threads are executed.
+
+Preventing Race Conditions
+1. Synchronization
+2. ReentrantLock
+      Java's ReentrantLock provides more flexibility than the synchronized keyword.
+3.  Use Atomic Variables
+      Atomic classes like AtomicInteger are specifically designed for thread-safe operations.
+-------------------------------------------------------------------------------------------------------------------------
+Advantages of Marker Interfaces
+Backward Compatibility: Works with older versions of Java and libraries that don't support annotations.
+
+-----------------------------------------------------------
+What determines the method to be executed at runtime in method overriding? The actual type of the object.
+
+-Overriding methods must have the same return type or a subtype of the superclass method.
+
+-----------------------------------------------------------------
+How can a Spring Boot microservice be made resilient to temporary failures? :Circuit breakers, retries, and fallbacks
+-----------------------------------------------------------------
+@LoadBalanced : Configures load balancing for a REST template
+------------------------------------------------------------------
+How can Spring Boot microservices ensure secure inter-service communication? : By using OAuth2 and JWT tokens
+------------------------------------------------------------------
+ Which Spring Cloud feature provides centralized logging for microservices?: Zipkin
+------------------------------------------------------------------
+@ConditionalOnBean
+
+Loads a bean only if another specific bean is present in the context.
+
+@ConditionalOnClass
+
+Loads a bean only if a specific class is available on the classpath.
+----------------------------------------------------------------------
+Key Feature: Combines @Controller and @ResponseBody. All methods in a class annotated with @RestController return data directly as the HTTP response body (e.g., JSON, XML, or plain text).
+
+Key Feature: Works with views and typically returns a view name (e.g., JSP, Thymeleaf, HTML templates).
+
+
+--------------------------------------
+
+
+
+
+=======
 
 
 
@@ -456,3 +889,4 @@ code review: all the design pattern should be followed, solid pattern , naming c
 public static cynchronise methodName(){
 
 }
+>>>>>>> 3f193d03414701c41e189386aa94ddfc0ff5d9c0
