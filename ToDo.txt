@@ -1,4 +1,5 @@
-1347542017528  paring key
+Ecom architecture
+AWS:   https://opentelemetry.io/docs/demo/architecture/
 ====================================================================================================================s
 
 https://performancemanager5.successfactors.eu/sf/home
