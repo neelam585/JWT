@@ -76,3 +76,50 @@ They may ask:
 SQL joins and aggregations (e.g., count per user/product).
 Java final keyword behavior.
 Stream API for filtering, sorting, and transforming collections.
+
+============================================================
+List<Student> data = studentRepository().findAll();
+List<Student> studentData = data.stream().filter(st->st.getMarks() > 70).collect(Collectors.toList());
+
+================================================================
+Table : Employee
+Columns: EmployeeName, Dept, Salary
+Records: Ravi, CSE, 1000
+Ram, ECE, 1500
+Shiva, CSE, 2000.
+
+
+Q: select highest salary from each department.
+
+
+Select Dept, max(Salary) from Employee group By Dept ;
+
+Map<String, Optional<Employee>> highstSalaryFromEachDep 
+			= emp.stream()
+ 			.collect(Collectors.groupingBy(Employee::getDep,Collectors.maxBy(Comperator.compaingDouble(Employee::getSalary)
+
+---------------------------------------------------------
+Optional<List<Employee>> employeeList(){}
+
+
+
+List<Employee> emp = new ArrayList<>(
+ 		new Employee ("AAA", 1000)
+                new Employee ("BBB", 2000)
+		new Employee ("CCC", 4000)
+
+);
+
+List<Employee> data = emp.stream().filter(a-> a.getSalary()> 2000).collect(Collectors.toList());
+------------------------------------------------------------------
+Employee
+
+List<Employee> data = emp.stream().filter(a->a.getSalary() > 5000 && a.getLocation().equals("Pune")).collect(Collectors.toList());
+
+--------------------------------------------------------------------------------------------------
+
+HOW To debug our code in java
+validation for phoneNumber field , it should not be string.
+
+@Pattern(regixp = [] , message = "")
+private String PhoneNumber;
