@@ -1,1 +1,78 @@
 
+✅ 1. Find Employee with Highest Salary using Stream
+Optional<Employee> highestSalaryEmp = employeeList.stream()
+   .max(Comparator.comparingDouble(Employee::getSalary));
+✅ 2. SQL Query to Update Mobile Number for Multiple IDs
+UPDATE Employee 
+SET mobile_number = '12345' 
+WHERE id IN (10, 17, 99);
+✅ 3. Count Occurrences in a List using Java 8
+Input: List<Character> list = Arrays.asList('A','A','B','C','A','B','C','D','D','D');
+Map<Character, Long> result = list.stream()
+   .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+result.forEach((k, v) -> System.out.println(k + " " + v));
+Output:
+A 3
+B 2
+C 2
+D 3
+✅ 4. Fixing Your Stream Code (Ignore Case Check)
+List<String> list = Arrays.asList("A", "a", "B");
+long count = list.stream()
+    .filter(c -> "A".equalsIgnoreCase(c))
+    .count();
+System.out.println("Count of A: " + count);
+✅ 5. Sort Students by Name in Descending Order
+List<Student> studentList = new ArrayList<>();
+studentList.add(new Student(1, "Hitesh"));
+studentList.add(new Student(2, "Pande"));
+studentList.add(new Student(3, "Chetan"));
+studentList.add(new Student(4, "Pawar"));
+studentList.sort(Comparator.comparing(Student::getName).reversed());
+studentList.forEach(s -> System.out.println(s.getId() + " " + s.getName()));
+--------------------------------------------
+Can a monolithic application use multiple databases? If yes, how?
+Write an SQL query to find the employee with the second highest salary.
+What is a Circuit Breaker (CB) in microservices architecture?
+Why is HashMap not thread-safe in Java? How can you make it thread-safe?
+What is the purpose of the @RefreshScope annotation in Spring Cloud?
+Compare Monolithic and Microservices architectures. What are the pros and cons of each? 
+
+🔍 SQL Query: Count of Products per User
+You want to count how many products a user has ordered. Here's the correct SQL syntax:
+✅ Correct SQL:
+SELECT userid, COUNT(productid) AS product_count
+FROM orders
+GROUP BY userid;
+If you want to count only users who ordered a single product, you can use:
+SELECT userid
+FROM orders
+GROUP BY userid
+HAVING COUNT(productid) = 1;
+🔄 SQL Join Example (User + Order)
+To join orders and users tables:
+SELECT u.userid, COUNT(o.productid) AS product_count
+FROM users u
+JOIN orders o ON u.userid = o.userid
+GROUP BY u.userid;
+☕ Java: final Keyword and List Behavior
+❌ Invalid:
+final String a = "b";
+a = "c"; // Error: cannot assign a value to final variable 'a'
+✅ Explanation:
+final means the reference cannot be changed.
+For objects like List, the reference is final, but the contents can be modified.
+Example:
+final List<Integer> list = new ArrayList<>(Arrays.asList(2, 3, 2, 3));
+list.add(1); // ✅ Allowed
+🔁 Java Stream API Usage
+To get distinct and sorted values:
+list.stream()
+    .distinct()
+    .sorted(Comparator.naturalOrder()) // or custom comparator
+    .forEach(System.out::println);
+🧠 
+They may ask:
+SQL joins and aggregations (e.g., count per user/product).
+Java final keyword behavior.
+Stream API for filtering, sorting, and transforming collections.
