@@ -37,7 +37,65 @@ public class InsertColor {
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
+ClassLoader loader = getClass().getClassLoader();
 
+localProps.setProperty("myKey", "myValue");
+
+String prop = System.getProperty("myKey");
+
+boolean isEnabled = Boolean.parseBoolean(prop);
+
+System.out.println("Property: " + prop);
+-------------------------------------------------------------------------------------------------------------------------------------------------
+After Completion Method
+@Override
+public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
+    // your logic here
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Update Metrics Using MetricService
+metricService.updateMetrics(request.getRequestURI());
+
+---------------------------------------------------------------------------------
+- Option C: C overrides E, E overrides D, D overrides F matches:
+- C = Command-line arguments
+- E = Java system properties
+- D = OS environment variables
+- F = Default properties
+Which follows the correct order from highest to lowest precedence.
+💡 So the right answer is most likely Option C.
+Would you like a simple code demo to see this in action with a few conflicting property sources? Could help lock it in.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Implement the Correct Interface
+implements HandlerInterceptor
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Blank 1: Mark the Class as a Spring Component
+@Component
+-------------------------------------------------------------------------------------------------------------------------------------------------
+@Service
+@RequiredArgsConstructor
+public class MessageService {
+
+    // Declare final field type for message source autowiring
+    private final MessageSource messageSource;
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------
+const FormState = reduxForm({
+  form: 'initializeFormState',
+  enableReinitialize: true,
+})(UserEdit);
+-------------------------------------------------------------------------------------------------------------------------------------------------
+const [inputText, setInputText] = useState('');
+const [suggestions, setSuggestions] = useState([]);
+-------------------------------------------------------------------------------------------------------------------------------------------------
 In Java, the @Retention annotation controls how long annotations are retained. It takes a value from the RetentionPolicy enum, which includes:
 
 -------------------------------------------------
