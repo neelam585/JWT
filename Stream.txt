@@ -1,3 +1,64 @@
+import java.util.*;
+
+public class RemoveDuplicates {
+    public static String removeDuplicates(String str) {
+        Set<Character> seen = new HashSet<>();
+        StringBuilder result = new StringBuilder();
+        
+        for (char c : str.toCharArray()) {
+            if (!seen.contains(c)) {
+                seen.add(c);
+                result.append(c);
+            }
+        }
+        return result.toString();
+    }
+
+    public static void main(String[] args) {
+        String input = "abacabad";
+        String output = removeDuplicates(input);
+        System.out.println(output);  // Output: abcd
+    }
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------
+import java.util.*;
+
+public class InsertColor {
+    public static void main(String[] args) {
+        List<String> colors = new ArrayList<>(Arrays.asList("Red", "Green", "Blue"));
+        String newColor = "Yellow";
+        int index = 2;
+
+        colors.add(index, newColor);  // Insert "Yellow" at position 2
+
+        System.out.println(colors);
+    }
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+In Java, the @Retention annotation controls how long annotations are retained. It takes a value from the RetentionPolicy enum, which includes:
+
+-------------------------------------------------
+protected ResourceBundle loadBundle(String basename, Locale locale)
+--------------------------------------------------------------------------
+protected ResourceBundle doGetBundle(String basename, Locale locale)
+------------------
+if (getFlag(key)) {
+    System.out.println(result);
+}
+-------------------
+return "true".equals(getProperty(key));
+
+<details> <summary>Developers</summary> Mr. XYZ </details>
+
+
+
+
+
+
+
 cloning of object
 why we need cloning
 what is the use of static and default method in functional interface
